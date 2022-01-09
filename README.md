@@ -28,9 +28,9 @@ make run-x3270
 
 ### PFKEYS
 
-F3 - Exit
-F7 - Page Back
-F8 - Page Forward
+* F3 - Exit
+* F7 - Page Back
+* F8 - Page Forward
 
 ### Documentation
 
