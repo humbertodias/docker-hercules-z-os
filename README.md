@@ -1,4 +1,4 @@
-# docker-hercules-z-os
+# docker-hercules-z/os
 
 Hercules Mainframe Emulator Running The MVS 3.8j Tur(n)key 4- System
 
