@@ -18,3 +18,9 @@ run-tk4:
 
 run-x3270:
 	x3270 localhost:3270
+
+tag:
+	docker tag tk4 hldtux/tk4:latest
+
+push:	tag
+	docker push hldtux/tk4:latest
