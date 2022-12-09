@@ -14,6 +14,13 @@ make build run-tk4
 make run-x3270
 ```
 
+For MacOS
+
+```
+brew install x3270
+make run-c3270
+```
+
 ### Users
 
 * HERC01 is a fully authorized user with full access to the RAKF users and profiles tables. The logon password is CUL8TR.

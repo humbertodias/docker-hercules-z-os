@@ -5,6 +5,7 @@ run-it:
 	docker run -it tk4
 
 run-tk4:
+	DOCKER_DEFAULT_PLATFORM=linux/amd64 \
 	docker run -d -p 3270:3270 -p 8038:8038 \
 	--mount source=tk4-conf,target=/tk4-/conf \
 	--mount source=tk4-local_conf,target=/tk4-/local_conf \
@@ -18,6 +19,9 @@ run-tk4:
 
 run-x3270:
 	x3270 localhost:3270
+
+run-c3270:
+	c3270 localhost:3270
 
 tag:
 	docker tag tk4 hldtux/tk4:latest

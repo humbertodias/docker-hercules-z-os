@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.10
 
 ARG TK4_VERSION=v1.00_current
 
@@ -9,7 +9,7 @@ RUN	apt update \
  && cd hercules \
  && mkdir tk4 \
  && cd tk4 \
- && wget http://wotho.ethz.ch/tk4-/tk4-_$TK4_VERSION.zip \
+ && wget --no-check-certificate https://wotho.ethz.ch/tk4-/tk4-_$TK4_VERSION.zip \
  && unzip tk4-_$TK4_VERSION.zip \
  && rm tk4-_$TK4_VERSION.zip \
  #echo 0010 3270 CONS >> /opt/hercules/tk4/conf/intcons.cnf && \
