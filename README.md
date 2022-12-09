@@ -5,7 +5,7 @@ Hercules Mainframe Emulator Running The MVS 3.8j Tur(n)key 4- System
 ### Server
 
 ```
-make build run-tk4
+DOCKER_DEFAULT_PLATFORM=linux/amd64 make build run-tk4
 ```
 
 ### Client
